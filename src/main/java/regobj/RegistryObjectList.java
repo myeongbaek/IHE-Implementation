@@ -10,12 +10,12 @@ import lombok.*;
 @Getter
 @Setter
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "rim:RegistryObjectList")
-public abstract class RegistryObjectList {
-    @XmlElement(name = "rim:RegistryPackage")
+@XmlRootElement(name = "RegistryObjectList")
+public class RegistryObjectList {
+    @XmlElement(name = "RegistryPackage")
     private RegistryPackage registryPackage;
-    @XmlElement(name = "rim:ExtrinsicObject")
+    @XmlElement(name = "ExtrinsicObject")
     private ExtrinsicObject extrinsicObject;
-    @XmlElement(name = "rim:Association")
+    @XmlElement(name = "Association")
     private Association association;
 }

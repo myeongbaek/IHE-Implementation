@@ -17,6 +17,6 @@ import java.util.List;
 public class Identifiable {
     @XmlAttribute
     private String id;
-    @XmlElement(name = "rim:Slot")
+    @XmlElement(name = "Slot")
     private List<Slot> slot;
 }

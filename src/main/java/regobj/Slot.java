@@ -14,6 +14,6 @@ import java.util.List;
 public class Slot {
     @XmlAttribute
     private String name;
-    @XmlElementWrapper(name="rim:ValueList")
+    @XmlElementWrapper(name="ValueList")
     private List<String> Value;
 }

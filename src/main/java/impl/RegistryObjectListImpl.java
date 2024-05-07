@@ -10,6 +10,6 @@ import regobj.RegistryObjectList;
 @Getter
 @Setter
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "rim:RegistryObjectList")
+@XmlRootElement(name = "RegistryObjectList")
 public class RegistryObjectListImpl extends RegistryObjectList {
 }
